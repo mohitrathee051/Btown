@@ -1,0 +1,174 @@
+{
+    "data": [
+        {"ourQualities" : [
+            {
+                "id": 1,
+                "image": "./quality_food.svg",
+                "title": "QUALITY FOOD",
+                "description": "Savor the excellence in every bite at Btown Brew Haven, where quality ingredients and meticulous craftsmanship come together to elevate your dining experience." 
+            },
+            {
+                "id": 2,
+                "image": "./super_taste.svg",
+                "title": "SUPER TASTE",
+                "description": "Experience the magic of superlative taste at Btown Brew Haven, where every dish is crafted with culinary mastery to leave your taste buds delightfully enchanted." 
+            },
+            {
+                "id": 3,
+                "image": "./fast_delivery.svg",
+                "title": "FAST DELIVERY",
+                "description": "Enjoy the speed of flavor at Btown Brew Haven! Our commitment to fast delivery ensures that your delectable dishes reach you promptly, so you can savor the goodness in no time." 
+            }
+        ],
+        "dishes": [
+            {
+                "id": 1,
+                "image": "./dinner1.jpeg",
+                "title": "Butter Chicken",
+                "category": "Dinner"
+            },
+            {
+                "id": 2,
+                "image": "./dinner2.png",
+                "title": "Shahi Paneer",
+                "category": "Dinner"
+            },
+            {
+                "id": 3,
+                "image": "./breakfast1.png",
+                "title": "Chole Bhature",
+                "category": "Breakfast"
+            },
+            {
+                "id": 4,
+                "image": "./dinner3.png",
+                "title": "STUFFED STRAWBERRY",
+                "category": "Dinner"
+            },
+            {
+                "id": 5,
+                "image": "./lunch1.png",
+                "title": "Aloo Tikki BURGER",
+                "category": "Lunch"
+            },
+            {
+                "id": 6,
+                "image": "./dinner4.png",
+                "title": "Pizza",
+                "category": "Dinner"
+            },
+            {
+                "id": 7,
+                "image": "./dinner5.png",
+                "title": "Noodles",
+                "category": "Dinner"
+            },
+            {
+                "id": 8,
+                "image": "./dinner6.png",
+                "title": "White Sauce Pasta",
+                "category": "Dinner"
+            }
+        ],
+        "team": [
+            {
+                "id": 1,
+                "image": "./team_member_1.png",
+                "name": "Rahul Rastogi",
+                "designation": "Founder & Head Chef"
+            },
+            {
+                "id": 2,
+                "image": "./team_member_1.png",
+                "name": "Vikas Kumar",
+                "designation": "Sous Chef"
+            },
+            {
+                "id": 3,
+                "image": "./team_member_1.png",
+                "name": "Pankaj Singh",
+                "designation": "Fast Food Chef"
+            },
+            {
+                "id": 4,
+                "image": "./team_member_1.png",
+                "name": "Rohit Sidhu",
+                "designation": "Senior Chef"
+            }
+        ],
+        "testimonials": [
+            {
+                "id": 1,
+                "image": "./team_member_1.png",
+                "description": "Shahi paneer is just awesome. I have never tasted such a delicious shahi paneer. I would recommend everyone to try this once. ",
+                "rating": 4,
+                "userName": "Rahul"
+            },
+            {
+                "id": 2,
+                "image": "./team_member_1.png",
+                "description": "pizza is just awesome. I have never tasted such a delicious pizza. I would recommend everyone to try this once.",
+                "rating": 4.5,
+                "userName": "Ritu"
+            },
+            {
+                "id": 3,
+                "image": "./team_member_1.png",
+                "description": "burger is just awesome. I have never tasted such a delicious burger. I would recommend everyone to try this once.",
+                "rating": 5,
+                "userName": "vikas"
+            }
+        ],
+        "who_we_are": [
+            {
+                "id": 1,
+                "number": "2",
+                "title": "Restaurants"
+            },
+            {
+                "id": 2,
+                "number": "8",
+                "title": "Chef In Kitchen"
+            },
+            {
+                "id": 3,
+                "number": "02",
+                "title": "Years Of Experience"
+            },
+            {
+                "id": 4,
+                "number": "50",
+                "title": "Food Dishes"
+            }
+        ],
+        "navbarLinks": [
+            {
+                "id": 1,
+                "title": "HOME",
+                "link": "heroSection"
+            },
+            {
+                "id": 2,
+                "title": "ABOUT US",
+                "link": "about"
+            },
+            {
+                "id": 3,
+                "title": "SERVICES",
+                "link": "qualities"
+            },
+            {
+                "id": 4,
+                "title": "TEAM",
+                "link": "team"
+            },
+            {
+                "id": 5,
+                "title": "RESERVATION",
+                "link": "reservation"
+            }
+        ]
+    
+    } 
+    ]
+}
