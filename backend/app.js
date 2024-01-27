@@ -8,6 +8,13 @@ import reservationRouter from "./routes/reservationRoute.js";
 const app = express();
 dotenv.config({ path: "./config/config.env" });
 
+
+
+app.listen(process.env.PORT, () => {
+  console.log(`Server listening on port ${process.env.PORT}`);
+});
+
+
 app.use(
   cors({
     origin: [process.env.FRONTEND_URL],
@@ -19,7 +26,7 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use("/api/v1/reservation", reservationRouter);
-
+console.log("hi")
 dbConnection();
 
 app.use(errorMiddleware);

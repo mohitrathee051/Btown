@@ -17,7 +17,7 @@ const About = () => {
             The overall vibe of the cafe is friendly, making it a perfect spot for both coffee enthusiasts and those seeking
             a delightful culinary experience.
           </p>
-          <Link to={"/"}>
+          <Link to={"menu"} spy={true} smooth={true} duration={500}>
             Explore Menu{" "}
             <span>
               <HiOutlineArrowNarrowRight />
